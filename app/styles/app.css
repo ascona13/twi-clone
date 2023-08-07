@@ -1,1 +1,47 @@
 /* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+body{
+  background-color: rgb(61, 42, 42) ;
+}
+.wrapper{
+  color: aliceblue;
+}
+
+.logo {
+  /*background: url(../assets/images/svg.svg);*/
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  filter: blur(1px);
+}
